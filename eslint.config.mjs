@@ -1,10 +1,10 @@
 import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
+// NOTE: Keep ESLint config minimal to avoid runtime issues across eslint-config-next versions.
+// Next's config provides the recommended rules for Next.js apps.
+import next from "eslint-config-next";
 
 const eslintConfig = defineConfig([
-  ...nextVitals,
-  ...nextTs,
+  ...(Array.isArray(next) ? next : [next]),
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
