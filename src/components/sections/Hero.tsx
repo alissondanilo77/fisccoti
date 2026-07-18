@@ -86,6 +86,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.08 }}
             className="relative h-[520px] overflow-hidden rounded-3xl border border-[rgba(229,231,235,0.18)] bg-[rgba(255,255,255,0.04)] shadow-[0_20px_70px_-45px_rgba(0,0,0,0.9)] md:h-[560px]"
           >
+            {/* eslint-disable-next/no-img-element */}
             <img
               src="/ti3.png"
               alt="Gestão fiscal com clareza e previsibilidade"

@@ -15,7 +15,7 @@ export default function Contact() {
 
         <div className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
           <motion.div initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-            <p className="text-sm font-semibold text-#ffffff-950">WhatsApp</p>
+            <p className="text-sm font-semibold text-blue-950">WhatsApp</p>
             <a href="#" className="mt-2 inline-flex text-sm font-semibold text-emerald-600 hover:text-emerald-500">
               Falar com especialista
             </a>

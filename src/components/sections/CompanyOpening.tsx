@@ -43,6 +43,7 @@ export default function CompanyOpening() {
             transition={{ duration: 0.4, delay: 0.05 }}
             className="relative rounded-3xl border border-zinc-200 bg-zinc-50 shadow-sm overflow-hidden"
           >
+            {/* eslint-disable-next/no-img-element */}
             <img
               src="/ti1.jpg"
               alt="Abertura de empresa"

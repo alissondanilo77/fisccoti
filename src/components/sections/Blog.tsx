@@ -26,7 +26,7 @@ export default function Blog() {
     <section id="blog" className="bg-black py-16 md:py-20">
       <div className="mx-auto w-full max-w-6xl px-4 md:px-6">
         <motion.div initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }}>
-          <h2 className="text-3xl font-bold tracking-tight text-blue-950">Notícias e conteúdos</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-#ffffff-950">Notícias e conteúdos</h2>
           <p className="mt-3 text-zinc-600">Informações para decisões melhores no dia a dia.</p>
         </motion.div>
 

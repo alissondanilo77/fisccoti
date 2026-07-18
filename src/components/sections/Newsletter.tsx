@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 export default function Newsletter() {
 
   return (
-    <section id="newsletter" className="bg-white py-16 md:py-20">
+    <section id="newsletter" className="bg-#000000 py-16 md:py-20">
       <div className="mx-auto w-full max-w-6xl px-4 md:px-6">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }}>
-            <h2 className="text-3xl font-bold tracking-tight text-blue-950">Receba conteúdos da área contábil diretamente no seu e-mail</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-#ffffff-950">Receba conteúdos da área contábil diretamente no seu e-mail</h2>
             <p className="mt-3 text-zinc-600">Dicas práticas e atualizações importantes para sua empresa.</p>
           </motion.div>
 
